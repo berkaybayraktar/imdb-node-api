@@ -1,0 +1,27 @@
+{
+  "name": "imdb-node-api",
+  "version": "1.0.0",
+  "description": "IMDB api.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkaybayraktar/imdb-node-api.git"
+  },
+  "keywords": [
+    "imdb",
+    "api",
+    "node"
+  ],
+  "author": "Berkay Bayraktar <bayberkay@gmail.com> (http://berkaybayraktar.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berkaybayraktar/imdb-node-api/issues"
+  },
+  "homepage": "https://github.com/berkaybayraktar/imdb-node-api#readme"
+}
