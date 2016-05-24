@@ -1,1 +1,1 @@
-module.exports = require('./lib/imdb-bot');
+module.exports = require('./lib/imdb-node-api');
