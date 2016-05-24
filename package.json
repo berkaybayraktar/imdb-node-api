@@ -1,10 +1,11 @@
 {
   "name": "imdb-node-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IMDB api.",
   "main": "index.js",
   "directories": {
-    "example": "examples"
+    "example": "example",
+    "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +25,7 @@
     "url": "https://github.com/berkaybayraktar/imdb-node-api/issues"
   },
   "homepage": "https://github.com/berkaybayraktar/imdb-node-api#readme",
-  "devDependencies": {
+  "dependencies": {
     "request": "^2.72.0",
     "cheerio": "^0.20.0"
   }
