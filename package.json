@@ -1,6 +1,6 @@
 {
   "name": "imdb-node-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "IMDB api.",
   "main": "index.js",
   "directories": {
