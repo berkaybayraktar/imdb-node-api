@@ -1,7 +1,7 @@
 {
   "name": "imdb-node-api",
   "version": "0.0.1-beta.0",
-  "description": "IMDB api.",
+  "description": "Simple IMDb API for Nodejs.",
   "main": "index.js",
   "directories": {
     "example": "example",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/berkaybayraktar/imdb-node-api#readme",
   "dependencies": {
-    "request": "^2.72.0",
-    "cheerio": "^0.20.0"
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
   }
 }
