@@ -1,6 +1,6 @@
 var imdb = require('../index');
 
-imdb.search({searchKey: 'xmen', maxResult: 5}, function (err, data) {
-    if (err) throw (err);
-    console.log(data);
+imdb.search({keyword: 'xmen'}, function (err, data) {
+    console.error("error: " + err);
+    console.log("data: " + data);
 });
