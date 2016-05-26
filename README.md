@@ -11,8 +11,8 @@ npm install imdb-node-api
 <pre>
 var imdb = require('imdb-node-api');
 
-imdb.getByImdbId('tt0106519', function(err, data){
-    if(err) throw (err)
-    console.log(data);
+imdb.getByImdbId('tt0106519', function (err, data) {
+    console.error("error: " + err);
+    console.log("data: " + data);
 });
 </pre>
