@@ -1,14 +1,15 @@
 {
   "name": "imdb-node-api",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "description": "Simple IMDb API for Nodejs.",
   "main": "index.js",
   "directories": {
     "example": "example",
-    "lib": "lib"
+    "lib": "lib",
+	"test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,9 @@
   "dependencies": {
     "cheerio": "^0.20.0",
     "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
   }
 }
