@@ -1,3 +1,5 @@
+# DEPRECATED
+ 
 # imdb-node-api
 
 Simple IMDb API for Nodejs. <br> Work in progress...
