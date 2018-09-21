@@ -1,8 +1,6 @@
-# DEPRECATED
- 
 # imdb-node-api
 
-Simple IMDb API for Nodejs. <br> Work in progress...
+Simple IMDb API for NodeJS.
 
 # Installation
 <pre>
@@ -10,31 +8,37 @@ npm install imdb-node-api
 </pre>
 # Usage
 
-## Define IMDb Api
+## IMDb Api Definition
 <pre>
 var imdb = require('imdb-node-api');
 </pre>
 
-## Search movies
+## Search Movies
+### Usage
 <pre>
-imdb.search({keyword: 'xmen', category: 'movie'}, function (err, data) {
-    console.error("error: " + err);
-    console.log("data: " + data);
+imdb.searchMovies(keyword, successCallback, errorCallback);
+</pre>
+
+### Example
+<pre>
+imdb.searchMovies('xmen', function (movies) {
+    console.log(movies);
+}, function(error) { 
+    console.error(error);
 });
 </pre>
 
-## Get movie by IMDb Id
+## Get Movie
+### Usage
 <pre>
-imdb.getByImdbId('tt0106519', function (err, data) {
-    console.error("error: " + err);
-    console.log("data: " + data);
-});
+imdb.getMovie(movieId, successCallback, errorCallback);
 </pre>
 
-## Get recommendations of a movie
+### Example
 <pre>
-imdb.getRecommendationsByImdbId('tt0106519', function (err, data) {
-    console.error("error: " + err);
-    console.log("data: " + data);
+imdb.getMovie('tt0106519', function (movie) {
+    console.log(movie);
+}, function(error) { 
+    console.error(error);
 });
 </pre>

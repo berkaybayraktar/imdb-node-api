@@ -1,12 +1,12 @@
 {
   "name": "imdb-node-api",
-  "version": "0.0.1-beta.4",
-  "description": "Simple IMDb API for Nodejs.",
+  "version": "0.1.0",
+  "description": "IMDb API",
   "main": "index.js",
   "directories": {
     "example": "example",
     "lib": "lib",
-	"test": "test"
+    "test": "test"
   },
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha"
@@ -20,7 +20,7 @@
     "api",
     "node"
   ],
-  "author": "Berkay Bayraktar <bayberkay@gmail.com> (http://berkaybayraktar.com)",
+  "author": "Berkay Bayraktar <bayberkay@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/berkaybayraktar/imdb-node-api/issues"
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/berkaybayraktar/imdb-node-api#readme",
   "dependencies": {
     "cheerio": "^0.20.0",
-    "request": "^2.72.0"
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
